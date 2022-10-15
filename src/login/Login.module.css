@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.body {
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("../image/Capture.PNG"); */
+}
+.formField .img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 8px;
+  top: 8px;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  max-height: 280px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.formPortion {
+  padding: 20px;
+}
+form .formField::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .formField:nth-child(1)::before {
+  background-image: url("../image/user-icon.png");
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .formField:nth-child(2)::before {
+  background-image: url("../image/lock-icon.png");
+  width: 16px;
+  height: 16px;
+}
+form .formField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border-color: ghostwhite;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4a4a4a;
+  text-indent: 40px;
+}
+form .btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: #47ab11;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+}
+.forgetSize {
+  cursor: pointer;
+  font-size: 20px;
+}
+.eyeIcon {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  left: 90%;
+}
